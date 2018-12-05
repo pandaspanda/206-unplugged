@@ -97,20 +97,315 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* UNIVERSAL STYLES ================================= */
+
+    /* == HEADER ======================== */
+
+        header.main-header {
+            width: 100%;
+        }
+
+        header.main-header.logo {
+            width: 100%;
+            margin: 0 auto;
+            clear: both;
+        }
+
+        header.main-header nav {
+            width: 100%;
+            margin: 0 auto;
+            clear: both;
+        }
+
+    /* == MAIN ========================== */
+
+        main {
+            width: 96%;
+            padding: 0 2%;
+            margin: auto;
+            clear: both;
+        }
+
+        main.hero-area {
+            width: 100%;
+            margin: auto;
+        }
+
+
+    /* == FOOTER ======================== */
+
+        footer {
+            width: 100%;
+            margin: auto;
+        }
+
+        .footer-logo {
+            width: 47.5%;
+            margin: auto;
+        }
+
+/* HOMEPAGE ========================================= */
+
+    /* == HEADER ======================== */
+
+        /* All Universal */
+
+    /* == MAIN ========================== */
+
+      /* Hero Area */
+
+        /* Top Story */
+
+            article.top-story {
+                width: 100%;
+                margin: auto;
+            }
+
+            article.top-story.top-img {
+                width: 100%;
+                margin: auto;
+            }
+        
+        /* Aside - Sidebar */
+
+            .sidebar {
+                width: 100%;
+                margin: auto;
+            }
+
+          /* Sidebar - Newsletter */
+
+                main.sidebar.sidebar-newsletter {
+                    width: 100%;
+                    margin: auto;
+                }
+                
+                .sidebar-newsletter .field   {
+                    width: 99%;
+                    margin: auto;
+                    display: block;
+                }
+     
+               .sidebar-newsletter .btn {
+                    width: 100%;
+                    margin: auto;
+                    display: block;  
+                }
+
+          /* Sidebar - About Us */
+
+                .sidebar-about-us {
+                    display: none;
+                }
+
+          /* Sidebar - Frequently Asked Questions */
+
+                .sidebar-faqs {
+                    display: none;
+                }
+
+      /* Feed */
+
+        .feed {
+            width: 100%;
+            margin: auto;
+        }
+
+          /* Feed Item */
+
+            .feed-item {
+                width: 100%;
+                margin: auto;
+            }
+
+                .feed-type {
+                    width: 100%;
+                    margin: 0;
+                }
+
+                .feed-img {
+                    width: 48%;
+                    display: inline;
+                    margin: auto;
+                    padding-right: 2%;
+                    float: left;
+                }
+
+                .feed-item h2, feed-item p {
+                    width: 48%;
+                    display: inline;
+                    margin: auto;
+                    padding-right: 2%;
+                    float: left;
+                }
+
+                .feed-item p {
+                    display: none;
+                }
+
+    /* == FOOTER ======================== */
+
+        footer {
+            width: 100%;
+            margin: auto;
+            clear: both;
+        }
+
+        .footer-logo {
+            width: 47.5%;
+            margin: auto;
+        }
+
+/* ABOUT US ========================================= */
+
+    /* == HEADER ======================== */
+
+    /* All Universal */
+
+    /* == MAIN ========================== */
+
+        main.about {
+            width: 92%;
+            padding: 0 4%;
+            margin: auto;
+            clear: both;
+        }
+
+        /* Hero Area */
+
+            /* Contact Info*/
+
+                .contact-info h1 {
+                    width: 100%;
+                    margin: auto;
+                    clear: both;
+                }
+
+                .contact-info ul {
+                    width: 100%;
+                    margin: auto;
+                    display: inline;
+                }
+
+                    .contact-info ul li {
+                        
+                        float: left;
+                        list-style: none;
+                    }
+
+                        .contact-info ul li.strong {
+                            margin-right: 0;
+                        }
+            /* Map */
+                
+                /* MAP STYLES GO HERE */
+
+            /* Mission Statement */
+
+                .mission {
+                    width: 98%;
+                    padding-right: 2%;
+                    margin: auto;
+                    clear: both;
+                }
+
+        /* Team */
+
+            .team {
+                width: 100%;
+                margin: auto;
+            }
+
+            /* Team Member */
+
+                .team-member {
+                    width: 100%;
+                    margin: auto;
+                    clear: both;
+                }
+
+                    .team-img {
+                        width: 50%;
+                        display: inline;
+                        float: left;
+                        margin: auto;
+                        height: auto;
+                        padding-bottom: 3%;
+                    }
+
+                    .team-name, .team-title, .team-description {
+                        width: 48%;
+                        margin: 0;
+                        padding: 0 1%;
+                        display: inline;
+                        float: left;
+                    }
+
+                    .team-description {
+                        display: none;
+                    }
 
 
 
+    /* == FOOTER ======================== */
 
+        footer {
+            width: 100%;
+            margin: auto;
+            clear: both;
+        }
 
+        .footer-logo {
+            width: 47.5%;
+            margin: auto;
+        }
 
+/* FAQs ============================================= */
+    
+    /* == HEADER ======================== */
 
+    /* All Universal */
 
+    /* == MAIN ========================== */
 
+    main.faqs {
+            width: 92%;
+            padding: 0 4%;
+            margin: auto;
+            clear: both;
+        }
 
+        /* Questions */
 
+            .questions {
+                width: 100%;
+            }
 
+            /* Question */
 
+                .question {
+                    width: 99%;
+                    margin: auto;
+                    padding-right: 1%;
+                }
 
+                .question-title {
+                    width: 95%;
+                    margin: auto;
+                    padding-right: 5%;
+                }
+
+    /* == FOOTER ======================== */
+
+    footer {
+        width: 100%;
+        margin: auto;
+    }
+
+    .footer-logo {
+        width: 47.5%;
+        margin: auto;
+    }
 
 
 /* ==========================================================================
